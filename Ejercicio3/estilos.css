@@ -1,0 +1,28 @@
+.navbar-custom .nav-item{
+    border-left: 1px #216997 solid;
+}
+
+.nav-item a{
+    color: white;
+}
+
+.navbar-custom .nav-item a:hover{
+    background-color: white;
+    color: black;
+}
+
+.bg-navbar-custom{
+    background-color: #2980B9;
+}
+
+.fa-bars{
+    font-size: 20px;
+}
+
+.dropdown-menu{
+    background-color: #434A54;
+}
+
+.custom-dropdown-2{
+    margin-left: 203px;
+}

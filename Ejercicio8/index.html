@@ -1,0 +1,111 @@
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/estilos.css">
+        <script src="js/codigo.js"></script>
+        <meta charset="UTF-8">
+      
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        
+        <title>Ejercicio 8</title>
+    </head>
+    <body class="bg-info">
+
+        <div class="container mt-5">
+            <div class="col-4 container" id="contenedor">
+                <div class="row bg-white">
+                    <input type="text" id="resul">
+                    <br>
+                    <input type="text" id="texto">
+                </div>
+
+                <div class="row">
+                    <div class="col bg-secondary container">
+                        <div class="row panel pt-4 pl-4"></div>
+                        <div class="row panel pt-3 pl-4">
+                            <button type="button" class="btn btn-secondary" onclick="num(this)" id="9">9</button>
+                        </div>
+                        <div class="row panel pt-4 pl-4"></div>
+                        <div class="row panel pt-3 pl-4">
+                            <button type="button" class="btn btn-secondary" onclick="num(this)" id="6">6</button>
+                        </div>
+                        <div class="row panel pt-4 pl-4"></div>
+                        <div class="row panel pt-3 pl-4">
+                            <button type="button" class="btn btn-secondary" onclick="num(this)" id="3">3</button>
+                        </div>
+                        <div class="row panel pt-4 pl-4"></div>
+                        <div class="row panel pt-3 pl-4">
+                            <button type="button" class="btn btn-secondary" onclick="punto()" id=".">.</button>
+                        </div>
+                    </div>
+                    <div class="col bg-secondary container">
+                        <div class="row panel pt-4 pl-4"></div>
+                        <div class="row panel pt-3 pl-4">
+                            <button type="button" class="btn btn-secondary" onclick="num(this)" id="8">8</button>
+                        </div>
+                        <div class="row panel pt-4 pl-4"></div>
+                        <div class="row panel pt-3 pl-4">
+                            <button type="button" class="btn btn-secondary" onclick="num(this)" id="5">5</button>
+                        </div>
+                        <div class="row panel pt-4 pl-4"></div>
+                        <div class="row panel pt-3 pl-4">
+                            <button type="button" class="btn btn-secondary" onclick="num(this)" id="2">2</button>
+                        </div>
+                        <div class="row panel pt-4 pl-4"></div>
+                        <div class="row panel pt-3 pl-4">
+                            <button type="button" class="btn btn-secondary" onclick="num(this)" id="0">0</button>
+                        </div>
+                        <div class="row panel pt-4 pl-4"></div>
+                    </div>
+                    <div class="col bg-secondary container">
+                        <div class="row panel pt-4 pl-4"></div>
+                        <div class="row panel pt-3 pl-4">
+                            <button type="button" class="btn btn-secondary" onclick="num(this)" id="7">7</button>
+                        </div>
+                        <div class="row panel pt-4 pl-4"></div>
+                        <div class="row panel pt-3 pl-4">
+                            <button type="button" class="btn btn-secondary" onclick="num(this)" id="4">4</button>
+                        </div>
+                        <div class="row panel pt-4 pl-4"></div>
+                        <div class="row panel pt-3 pl-4">
+                            <button type="button" class="btn btn-secondary" onclick="num(this)" id="1">1</button>
+                        </div>
+                        <div class="row panel pt-4 pl-4"></div>
+                        <div class="row panel pt-3 pl-4">
+                            <button type="button" class="btn btn-secondary" onclick="num(this)" id="00">00</button>
+                        </div>
+                        <div class="row panel pt-4 pl-4"></div>
+                    </div>
+                    <div class="col bg-info container">
+                        <div class="row panel pt-3 pl-4"></div>
+                        <div class="row pl-4">
+                            <button type="button" class="btn btn-info" id="borrar" onclick="c()" id="c">DEL</button>
+                        </div>
+                        <div class="row panel pt-3 pl-4"></div>
+                        <div class="row pl-4">
+                            <button type="button" class="btn btn-info" onclick="op(this)" id="/">/</button>
+                        </div>
+                        <div class="row panel pt-3 pl-4"></div>
+                        <div class="row pl-4">
+                            <button type="button" class="btn btn-info" onclick="op(this)" id="*">X</button>
+                        </div>
+                        <div class="row panel pt-3 pl-4"></div>
+                        <div class="row pl-4">
+                            <button type="button" class="btn btn-info" onclick="op(this)" id="-">-</button>
+                        </div>
+                        <div class="row panel pt-3 pl-4"></div>
+                        <div class="row pl-4">
+                            <button type="button" class="btn btn-info" onclick="op(this)" id="+">+</button>
+                        </div>
+                        <div class="row panel pt-3 pl-4"></div>
+                        <div class="row pl-4">
+                            <button type="button" class="btn btn-info" onclick="resultado()" id="=">=</button>
+                        </div>
+                        <div class="row panel pt-3 pl-4"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
